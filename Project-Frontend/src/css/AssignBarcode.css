@@ -1,0 +1,56 @@
+.mainForm{
+    /*border:1px solid #404094;
+    height: 100%;*/
+}
+
+/* Header CSS*/
+.header{
+    background: #276faa;
+    text-align: center;
+    margin-top: 5px;
+    color: #f1f1f1;
+    border: 1px solid #404094;
+}
+
+
+
+.assignBooklet{
+    color: #276faa;
+    margin-top: 3px;
+    height: 100%;
+}
+.assignBooket .row{
+    height: 110%;
+}
+.assignBooklet .row .col-sm-2{
+    margin-left: 1%;
+    margin-right: 0%;
+}
+.assignBooklet .row .col-sm-10{
+    margin-left: -25px;
+}
+
+input[type="text"]{
+    margin-top: 2px;
+    width: 80%;
+    
+}
+
+
+.displayInfo{
+    border: 1px solid #404094;
+    margin-top: 2px;
+}
+.displayInfo .row{
+    margin-top: 5px;
+    margin-left: -5px;
+    color: #276faa;
+}
+.displayInfo button{
+    margin-top: 9%;
+    background: #404094;
+    color: #f1f1f1;
+    width:  80%;
+    height: 80%;
+
+}

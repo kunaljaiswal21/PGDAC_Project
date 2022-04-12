@@ -1,0 +1,691 @@
+body {
+    background-color: #E7EFF7;
+}
+
+#root {
+    font-family: "Segoe UI"!important;
+    font-size: 15px !important;
+    height: 100%;
+    font-weight: normal;
+}
+
+.dateAlignment {
+    text-align: center;
+    width: 100%;
+}
+
+.headerBold {
+    font-Size: larger;
+    background-color: #4A81D4 !important;
+}
+
+.textboxBgColor {
+    background-color: lightblue
+}
+
+.reportTotalRow {
+    font-Weight: bolder;
+    background-Color: rgba(0, 0, 0, 0.03);
+    border-Bottom: 2px solid #dee2e6;
+    border-Top: 2px solid #dee2e6;
+    color: darkblue;
+}
+
+tbody {
+    text-transform: capitalize;
+}
+
+.card {
+    text-transform: capitalize;
+    margin: 1%;
+    margin-bottom: 4%;
+}
+
+.CardMargin {
+    text-transform: capitalize!important;
+    margin-bottom: 5%!important;
+}
+
+.textCapatalization {
+    text-transform: capitalize;
+}
+
+.wiseDailyHeader {
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    font-size: xx-large;
+    text-transform: capitalize;
+}
+
+.wiseDailyHeaderMenu {
+    color: darkblue;
+    font-weight: bold;
+    text-align: center;
+    font-size: xx-large;
+    text-transform: capitalize;
+}
+
+.hide {
+    display: none;
+}
+
+.margin-right {
+    margin-left: 10px;
+}
+
+.alignCenter {
+    text-align: center;
+}
+
+.card-footer Button {
+    width: 10%;
+    color: #fff;
+    background-color: #007bff!important;
+    border-color: #007bff;
+    margin: 1%
+}
+
+.textColorGreen {
+    color: rgb(56, 121, 26);
+    font-style: italic;
+    font-weight: 600;
+}
+
+#map {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    border-radius: 0.25rem;
+}
+
+.map {
+    bottom: 0;
+    left: 25%;
+    position: absolute;
+    top: 0;
+    width: 75%;
+    z-index: -1;
+}
+
+.control-panel {
+    -webkit-box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.3);
+    height: 100%;
+    left: 0;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    width: 25%;
+}
+
+.card {
+    height: 100%;
+    margin-bottom: 4%;
+}
+
+.cardDashboard {
+    background-color: rgb(240, 242, 245) !important;
+    border: none !important;
+}
+
+.dashboardCol {
+    background-clip: border-box;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    border-radius: 0.25rem;
+    padding: 0.5% 0.25% !important;
+    background-color: white;
+}
+
+.resetRowMarginToZero {
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+}
+
+li.ant-menu-item,
+li.ant-menu-submenu,
+.ant-menu-submenu-title {
+    font-size: 17px !important;
+    padding-left: 5% !important;
+}
+
+li.ant-menu-submenu.ant-menu-submenu-inline {
+    padding-left: 0px !important;
+}
+
+table#endTrackingPopup .popup-content {
+    width: 80% !important;
+}
+
+.map {
+    bottom: 0;
+    left: 25%;
+    position: absolute;
+    top: 0;
+    width: 75%;
+    z-index: -1;
+}
+
+.control-panel {
+    -webkit-box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.3);
+    height: 100%;
+    left: 0;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    width: 25%;
+}
+
+
+/* input[placeholder] {
+    font-style: italic
+} */
+
+*::placeholder {
+    /* modern browser */
+    font-style: italic
+}
+
+.AutoCompleteText {
+    width: 56%;
+    /* border: 1px solid #ced4da;
+    box-shadow: 0 0 0 1px rgba(0, 0, 0, .1), 0 2px 4px 1px rgba(0, 0, 0, .18); */
+    /* font-family: Arial, Helvetica, sans-serif;*/
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.73);
+    border-radius: 0.10rem;
+}
+
+.AutoCompleteText input {
+    width: 100%;
+    border-radius: 0.25rem;
+    /* font-family: inherit; */
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    /*box-sizing: border-box;
+    outline: none;*/
+    display: block;
+    padding: 0.375rem 0.75rem;
+}
+
+.AutoCompleteText ul {
+    list-style-type: none;
+    text-align: left;
+    margin: 0;
+    padding: 0;
+    border: 1px solid #ced4da;
+    box-shadow: 0 0 0 1px rgba(0, 0, 0, .1), 0 2px 4px 1px rgba(0, 0, 0, .18);
+    border-top: 1px solid #ced4da;
+}
+
+.AutoCompleteText ul::before {
+    content: "";
+}
+
+.AutoCompleteText li {
+    padding: 10px 5px;
+    cursor: pointer;
+}
+
+.AutoCompleteText li:hover {
+    text-decoration: underline;
+    background-color: rgba(128, 128, 128, 0.20);
+}
+
+.row1 {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 15px;
+}
+
+.ant-menu-item:hover {
+    background-color: rgb(169, 231, 226);
+}
+
+.ant-menu-submenu-title:hover {
+    background-color: rgb(169, 231, 226);
+}
+
+.loginButton {
+    width: 40%;
+    background-image: linear-gradient(65deg, rgb(20, 136, 204) 0px, rgb(43, 50, 178) 100%);
+    color: #fff !important;
+    border-radius: 15px;
+}
+
+.loginButton span {
+    padding: 0;
+    width: 100%;
+}
+
+.AutoCompleteText1 {
+    width: 56%;
+    /* border: 1px solid #ced4da;
+    box-shadow: 0 0 0 1px rgba(0, 0, 0, .1), 0 2px 4px 1px rgba(0, 0, 0, .18); */
+    /* font-family: Arial, Helvetica, sans-serif;*/
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.73);
+    border-radius: 0.25rem;
+}
+
+.AutoCompleteText1 input {
+    width: 200%;
+    border-radius: 0.25rem;
+    /* font-family: inherit; */
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    /*box-sizing: border-box;
+    outline: none;*/
+    display: block;
+    padding: 0.375rem 0.75rem;
+}
+
+.AutoCompleteText1 ul {
+    width: 100%;
+    list-style-type: none;
+    text-align: left;
+    margin: 0;
+    padding: 0;
+    border: 1px solid #ced4da;
+    /* box-shadow: 0 0 0 1px rgba(0, 0, 0, .1), 0 2px 4px 1px rgba(0, 0, 0, .18); */
+    border-top: 1px solid #ced4da;
+    margin-left: 0%;
+    border-radius: none;
+}
+
+.AutoCompleteText1 ul::before {
+    content: "";
+}
+
+.AutoCompleteText1 li {
+    padding: 10px 5px;
+    cursor: pointer;
+}
+
+.AutoCompleteText1 li:hover {
+    text-decoration: underline;
+    background-color: rgba(128, 128, 128, 0.20);
+}
+
+.OneTimeOrder:focus {
+    background: rgb(14, 4, 1);
+}
+
+.container.p-3 {
+    width: 25%;
+    border-radius: 10%;
+}
+
+.text-center .loginButton {
+    border-radius: 15px;
+}
+
+p.text-center {
+    margin: 0;
+}
+
+#header ul {
+    background-color: white!important;
+    border-bottom: 1px solid gray;
+}
+
+#hamburger {
+    color: black;
+}
+
+.e-menu-wrapper ul .e-menu-item .e-menu-url {
+    color: white!important;
+}
+
+.e-menu-item.e-focused:hover {
+    background-color: #d9d9d9 !important;
+    color: black!important;
+}
+
+.e-menu-item.e-focused:hover .e-menu-url {
+    background-color: #d9d9d9 !important;
+    color: black!important;
+}
+
+.form-control,
+.btn {
+    font-size: 13px !important;
+    font-weight: normal !important;
+}
+
+.plusImg {
+    height: 75%;
+    margin-left: 2%;
+}
+
+label {
+    margin-left: 1%;
+}
+
+th {
+    font-weight: bold;
+}
+
+#maintext.main-content {
+    background-color: #f7f7f7;
+}
+
+.card-footer {
+    background-color: white!important;
+    border-top: none!important;
+}
+
+h3 {
+    margin-top: 0.5%;
+}
+
+.EditButton {
+    background-color: #007bff!important;
+    border: none;
+}
+
+.DeleteButton {
+    background-color: #FE418D!important;
+    border: none;
+}
+
+.AddButton {
+    border: none!important;
+    background-color: #007bff!important;
+}
+
+.DefaultButton {
+    background-color: #007bff!important;
+}
+
+.table-striped tbody tr:nth-of-type(odd) {
+    background-color: #F1F5F7!important;
+}
+
+.Toastify__toast--success {
+    text-transform: none!important;
+}
+
+.card-header {
+    color: white!important;
+}
+
+.CancelButton {
+    background-color: darkred!important;
+    border: none;
+}
+
+.Lapsed {
+    background-color: pink!important;
+}
+
+.Regular {
+    background-color: green!important;
+}
+
+.New {
+    background-color: #007bff!important;
+}
+
+.Credit {
+    background-color: rgb(124, 228, 124)!important;
+    width: 20%!important;
+    text-align: center;
+    border-radius: 5px!important;
+}
+
+.Debit {
+    background-color: #FE418D!important;
+    width: 20%!important;
+    text-align: center;
+    border-radius: 5px!important;
+}
+
+.PositiveValue {
+    color: black!important;
+}
+
+.NegativeValue {
+    color: rgb(207, 78, 78)!important;
+}
+
+.Toastify__toast {
+    text-transform: none!important;
+}
+
+.headerBold card-header {
+    background-color: #007bff!important;
+}
+
+.e-menu-wrapper dock-menu e-lib e-keyboard {
+    float: right!important;
+}
+
+.profileDetails {
+    font-size: large;
+    font-weight: bold;
+    text-transform: capitalize;
+    color: darkblue;
+}
+
+.fontWeightNormal {
+    font-weight: bolder;
+    color: aliceblue;
+    font-size: 12px;
+}
+
+.orderDetailsLabel label {
+    font-weight: normal;
+}
+
+.headerColour {
+    background-color: cornflowerblue!important;
+}
+
+.react-datepicker-wrapper {
+    width: 100%!important;
+}
+
+.react-datepicker-wrapper {
+    width: 100%!important;
+}
+
+.dateAlignment {
+    text-align: center;
+    width: 100%!important;
+}
+
+.col-md-1,
+.col-md-2,
+.col-md-3,
+.col-md-4,
+.col-md-5,
+.col-md-6,
+.col-md-7,
+.col-md-8,
+.col-md-9,
+.col-md-10,
+.col-md-11,
+.col-md-12,
+.col-md {
+    padding-right: 5px!important;
+    padding-left: 5px!important;
+}
+
+.orderCards {
+    width: 100%;
+    height: 160px;
+    margin-top: 2%;
+    border: "1px solid dimgrey"
+}
+
+.orderStatusLabel {
+    width: 100%;
+    font-size: large;
+    text-align: center;
+    font-weight: bold;
+}
+
+.popup-content {
+    width: 100%!important;
+    padding: 5%;
+}
+
+.textHidden {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.orderCardBody {
+    max-height: 700px;
+    overflow-y: hidden;
+    height: 100vh;
+    margin-bottom: 5%;
+}
+
+.orderSrollY {
+    height: 100%;
+    overflow-y: auto;
+    margin: 0;
+    margin-right: 7px;
+    max-height: 470px;
+}
+
+.pagination {
+    margin-left: 35%!important;
+}
+
+.card-footer {
+    padding: 0.75rem 1.25rem!important;
+    background-color: rgba(0, 0, 0, 0.03)!important;
+    border-top: 1px solid rgba(0, 0, 0, 0.125)!important;
+}
+
+.updateButton {
+    background-color: green!important;
+}
+
+.modal-content {
+    margin-top: 25%!important;
+}
+
+.requiredRed {
+    color: red;
+}
+
+.ScrollBarForAllScreen {
+    overflow-y: scroll;
+    height: 450px
+}
+
+.bgColorPlusButton {
+    background-color: #4b81d4!important;
+    float: right;
+    padding: 0px!important;
+    border-color: #4b81d4!important;
+}
+
+.bgColorPlusButton:hover {
+    background-color: #4b81d4!important;
+    border-color: #4b81d4!important;
+}
+
+tr {
+    border-top: 1px solid #dee2e6;
+}
+
+span.e-icons.e-caret::before {
+    color: white;
+}
+
+table#endTrackingPopup .popup-content {
+    width: 100% !important;
+}
+
+.orderSrollX {
+    width: 100%;
+    overflow-y: auto;
+    margin: 0;
+    /* margin-right: 7px; */
+    max-width: 1230px;
+}
+
+.ModalViewForMobile {
+    width: 310px!important;
+    height: 450px!important;
+    text-align: center;
+    border: 2px solid black;
+    margin-left: 19%;
+}
+
+.Modal {
+    width: 65%!important;
+}
+
+.smartphone {
+    position: relative;
+    width: 360px;
+    height: 640px;
+    margin: auto;
+    border: 16px black solid;
+    border-top-width: 60px;
+    border-bottom-width: 60px;
+    border-radius: 36px;
+}
+
+.smartphone:before {
+    content: '';
+    display: block;
+    width: 60px;
+    height: 5px;
+    position: absolute;
+    top: -30px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #333;
+    border-radius: 10px;
+}
+
+.smartphone:after {
+    content: '';
+    display: block;
+    width: 35px;
+    height: 35px;
+    position: absolute;
+    left: 50%;
+    bottom: -65px;
+    transform: translate(-50%, -50%);
+    background: #333;
+    border-radius: 50%;
+}
+
+.smartphone .content {
+    width: 328px;
+    height: 520px;
+    background: white;
+}
+
+.Bannerow {
+    border: none;
+    background-color: white!important;
+    list-style: none!important;
+}
+
+.ModalNew {
+    width: 200%!important;
+    margin-top: 0%!important;
+    margin-left: -40%!important;
+}

@@ -1,0 +1,55 @@
+package com.app.loanApplication;
+
+import java.time.LocalDate;
+
+import java.time.format.DateTimeFormatter;
+
+import javax.swing.text.DefaultEditorKit.CutAction;
+import javax.validation.Valid;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.format.annotation.DateTimeFormat;
+import org.springframework.web.bind.annotation.CrossOrigin;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.PutMapping;
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.app.loanApplication.customer.Exceptions.Incorrectpassword;
+import com.app.loanApplication.customer.pojo.CustomerDao;
+import com.tssnBank.loanApplication.customer.service.CustomerService;
+
+@RestController
+public class CustomerControler {
+	
+	@Autowired
+	private CustomerService cs;
+	
+	@CrossOrigin("http://localhost:3000")
+	@PostMapping("validate")
+	public CustomerDao valiDateUser(@RequestBody CustomerDao customerDao) {
+		CustomerDao newCustomer = cs.getCustomerByName(customerDao.getUserName());
+		if (newCustomer.getPassword().equals(customerDao.getPassword())) {
+			return newCustomer;
+		}else {
+			throw new Incorrectpassword("Password Does not match");
+		}	
+	}
+	
+	@CrossOrigin("http://localhost:3000")
+	@PostMapping("customer")
+	public CustomerDao addUser(@Valid @RequestBody CustomerDao customerDao) {
+		CustomerDao newCustomer = cs.addNewCustomer(customerDao);
+		return newCustomer;
+	}
+	
+	@CrossOrigin("http://localhost:3000")
+	@PutMapping("customer")
+	public CustomerDao upDateUser(@Valid @RequestBody CustomerDao customerDao) {
+		CustomerDao newCustomer = cs.upDateCustomer(customerDao);
+		return newCustomer;
+	}
+	
+}

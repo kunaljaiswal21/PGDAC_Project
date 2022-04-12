@@ -1,0 +1,192 @@
+/*   ----QuantityRequired----   */
+
+.header_QuantityRequired .row{
+    background: #695dd4;
+    color: white;
+    text-align: center;
+}
+.body_QuantityRequired #quantity_Info{
+    margin-top: 15px;
+    margin-left: -10px;
+}
+.body_QuantityRequired #quantity_Info #date_time{
+    margin-bottom: 10px;
+}
+.body_QuantityRequired #quantity_Info input[type=date]{
+    margin-left: -20px;
+    width: 105%;
+    height: 80%;
+}
+.body_QuantityRequired #quantity_Info #del_Boy select{
+    width: 130%;
+    margin-left: 2px;
+}
+.body_QuantityRequired #quantity_Info #del_Boy .col-sm-5{
+    margin-left: -30px;
+}
+
+.body_QuantityRequired #quantity_Info #del_Boy .col-sm-7{
+    margin-left: -20px;
+}
+
+.body_QuantityRequired #quantity_Info #time{
+    margin-left: -5%;
+}
+.body_QuantityRequired #quantity_Info #time .col-sm-5{
+    margin-left: -2px;
+}
+.body_QuantityRequired #quantity_Info #time select{
+    height: 100%;
+    width: 110%;
+    margin-left: -5%;
+}
+.body_QuantityRequired #quantity_Info #product_Name select{
+    height: 100%;
+}
+
+.body_QuantityRequired #quantity_Info #total_required{
+    margin-bottom: 15px;
+}
+.body_QuantityRequired #quantity_Info #total_required button{
+    background: #2c2191;
+    color: white;
+}
+.body_QuantityRequired #quantity_Info #total_required .col-md-2{
+    text-align: right;
+}
+
+
+.body_QuantityRequired #output_heading>div{
+    border: 1px solid black;
+    text-align: center;
+    color: white;
+}
+
+.body_QuantityRequired #output_heading .col-lg-4{
+    background: #695dd4;
+}
+.body_QuantityRequired #output_heading .col-lg-2{
+    background: #695dd4;
+    padding-top: 7px;
+}
+.body_QuantityRequired #output_heading .col-lg-4 .col-md-6 {
+    border: 1px solid black;
+    background: #695dd4;
+}
+
+
+/*   ----AddProduct----   */
+
+.header_addProduct{
+    border: 1px solid black;
+    background: #3672c0;
+    text-align: center;
+    margin-top: 3px;
+    color: #ffffff;
+    margin-bottom: 5px;
+}
+.body_addProduct .row{
+    margin-top: 3px;
+    color: #1d4375;
+}
+.body_addProduct .row .col-lg-2{
+    text-align: left;
+    margin-left: 30%;
+}
+.body_addProduct select{
+    width: 55%;
+    padding: 4px;
+}
+.body_addProduct span{
+    color: red;
+}
+.body_addProduct input[type=text]{
+    width: 55%;
+    padding: 2px;
+}
+.body_addProduct input[type=textarea]{
+    width: 55%;
+    height: 200%;
+    text-align: left;
+    padding: 2px;
+}
+.body_addProduct button{
+    width: 10%;
+    background: #090958;
+    color: #ffffff;
+    margin-top: 7%;
+}
+
+
+/*   ----QuantityRequired1----   */
+
+.header_QuantityRequired1 .row{
+    background: #695dd4;
+    color: white;
+    text-align: center;
+}
+.body_QuantityRequired1 #quantity_Info{
+    margin-top: 15px;
+    margin-left: -8px;
+}
+.body_QuantityRequired1 #quantity_Info #date_time{
+    margin-bottom: 5px;
+}
+.body_QuantityRequired1 #quantity_Info input[type=date]{
+    margin-left: -6px;
+    width: 110%;
+    height: 80%;
+}
+.body_QuantityRequired1 #quantity_Info #del_Boy select{
+    width: 95%;
+    margin-left: -20px;
+    height: 100%;
+}
+.body_QuantityRequired1 #quantity_Info #del_Boy .col-sm-5{
+    margin-left: -2px;
+}
+.body_QuantityRequired1 #quantity_Info #del_Boy .col-sm-7{
+    margin-left: -15px;
+}
+.body_QuantityRequired1 #quantity_Info #time{
+    margin-left: -60%;
+}
+.body_QuantityRequired1 #quantity_Info #time select{
+    height: 100%;
+    width: 110%;
+    margin-left: -30%;
+}
+.body_QuantityRequired1 #quantity_Info #product_Name .col-sm-6 {
+    margin-left: -2%;    
+}
+.body_QuantityRequired1 #quantity_Info #product_Name select{
+    height: 95%;
+    width: 110%    
+}
+.body_QuantityRequired1 #quantity_Info #total_required{
+    margin-bottom: 15px;
+}
+.body_QuantityRequired1 #quantity_Info #total_required button{
+    background: #2c2191;
+    color: white;
+}
+.body_QuantityRequired1 #quantity_Info #total_required .col-md-2{
+    text-align: right;
+}
+.body_QuantityRequired1 #output_heading>div{
+    border: 1px solid black;
+    text-align: center;
+    color: white;
+}
+
+.body_QuantityRequired1 #output_heading .col-lg-4{
+    background: #695dd4;
+}
+.body_QuantityRequired1 #output_heading .col-lg-2{
+    background: #695dd4;
+    padding-top: 7px;
+}
+.body_QuantityRequired1 #output_heading .col-lg-4 .col-md-6 {
+    border: 1px solid black;
+    background: #695dd4;
+}
